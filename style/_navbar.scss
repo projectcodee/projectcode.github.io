@@ -1,0 +1,72 @@
+.navbar-project {
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  @include media-breakpoint-down(md) {
+    background-color: black !important;
+  }
+
+  .container {
+    span {
+      font-size: 25px;
+    }
+    .project {
+      margin-left: 10px;
+      font-weight: 600;
+      color: #fff;
+    }
+    .code {
+      color: #fed000;
+      font-weight: 600;
+    }
+  }
+
+  .nav-item {
+    .btn-login {
+      background-color: #176a4c;
+      color: #fff;
+
+      &:hover {
+        background-color: #1d7e5a;
+        color: #fff;
+      }
+    }
+
+    .nav-link {
+      color: white;
+
+      &.active {
+        color: #fed000 !important;
+        font-weight: bold;
+      }
+
+      &:hover {
+        color: #fed000;
+      }
+      @include media-breakpoint-up(lg) {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .profile-picture {
+    max-height: 45px;
+  }
+
+  .card-badge {
+    display: inline-block;
+    min-width: 2em;
+    padding: 0.3em;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    background: #176a4c;
+    color: #fefefe;
+    margin-left: -10px;
+  }
+}
+.navbar-fixed-top.scrolled {
+  background-color: black !important;
+  transition: background-color 200ms linear;
+}

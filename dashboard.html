@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Projectcode</title>
+    <!-- Favicons -->
+    <link href="images/logo/logo_pc.svg" rel="icon" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" />
+    <link href="style/main.css" rel="stylesheet" />
+
+    <!-- Fontwesome -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/all.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark navbar-project fixed-top navbar-fixed-top"
+      data-aos="fade-down"
+      style="background-color: black"
+    >
+      <div class="container">
+        <a href="/index.html" class="navbar-brand">
+          <img src="images/logo/logo_pc.svg" alt="logo pc" class="d-inline" />
+          <span class="project">PROJET<span class="code">CODE</span> </span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Update
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Blog</a>
+                <a class="dropdown-item" href="#">Webinar</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="/kelas.html" class="nav-link active">Online Course</a>
+            </li>
+            <li class="nav-item">
+              <a href="/flowchart.html" class="nav-link">Alur Belajar</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav d-none d-lg-flex">
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+              >
+                <img
+                  src="images/workingspace/icon-user.png"
+                  alt=""
+                  class="rounded-circle-2 mr-2 profile-picture"
+                />Hi, Hendra Andika
+              </a>
+              <div class="dropdown-menu">
+                <a href="/dashboard.html" class="dropdown-item">Dashboard</a>
+                <a href="/index.html" class="dropdown-item">Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="page-dashboard">
+      <section class="d-flex" data-aos="fade-right">
+        <div class="container">
+          <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3">
+              <div id="sidebar-wrapper">
+                <div class="sidebar-heading">
+                  <img src="/images/workingspace/icon-user.png" />
+                  <h3 class="sidebar-heading-name">Hendra Andika</h3>
+                  <p class="sidebar-heading-job">Programmer</p>
+                  <a href="/dashboard-edit-profile.html" class="btn btn-block"
+                    >Edit Profile</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Page Content -->
+            <div class="col-md-9 page-content-wrapper">
+              <div class="pl-4">
+                <!-- User Menu -->
+                <nav>
+                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a
+                      class="nav-link active"
+                      id="nav-home-tab"
+                      data-toggle="tab"
+                      href="#nav-home"
+                      role="tab"
+                      aria-controls="nav-home"
+                      aria-selected="true"
+                      >Kelas Saya</a
+                    >
+                    <a
+                      class="nav-link"
+                      id="nav-karya-tab"
+                      data-toggle="tab"
+                      href="#nav-karya"
+                      role="tab"
+                      aria-controls="nav-karya"
+                      aria-selected="true"
+                      >Karya Saya</a
+                    >
+                  </div>
+                </nav>
+                <!-- Section Content -->
+
+                <div class="tab-content section-content" id="nav-tabContent">
+                  <!-- Kelas Saya -->
+                  <div
+                    class="tab-pane fade show active"
+                    id="nav-home"
+                    role="tabpanel"
+                    aria-labelledby="nav-home-tab"
+                  >
+                    <div class="container-fluid">
+                      <div class="dashboard-heading">
+                        <h2 class="dashboard-title">Kelas Yang Kamu Miliki</h2>
+                        <p class="dashboard-subtitle">
+                          3 kelas tersedia untuk dipelajari
+                        </p>
+                      </div>
+                      <div class="dashboard-content">
+                        <div class="row">
+                          <div
+                            class="col-6 col-md-4 col-lg-4"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                          >
+                            <a
+                              href="/dashboard-intro.html"
+                              class="component-class"
+                            >
+                              <div class="class-thumbnail">
+                                <div
+                                  class="class-image"
+                                  style="
+                                    background-image: url('/images/workingspace/web-design.png');
+                                  "
+                                ></div>
+                              </div>
+                              <div class="class-text">Web Design</div>
+                              <div class="class-name">Johan Ramadhan</div>
+                            </a>
+                          </div>
+                          <div
+                            class="col-6 col-md-4 col-lg-4"
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                          >
+                            <a
+                              href="/dashboard-intro.html"
+                              class="component-class"
+                            >
+                              <div class="class-thumbnail">
+                                <div
+                                  class="class-image"
+                                  style="
+                                    background-image: url('/images/workingspace/web-design.png');
+                                  "
+                                ></div>
+                              </div>
+                              <div class="class-text">Aplikasi POS</div>
+                              <div class="class-name">Johan Ramadhan</div>
+                            </a>
+                          </div>
+                          <div
+                            class="col-6 col-md-4 col-lg-4"
+                            data-aos="fade-up"
+                            data-aos-delay="300"
+                          >
+                            <a
+                              href="/dashboard-intro.html"
+                              class="component-class"
+                            >
+                              <div class="class-thumbnail">
+                                <div
+                                  class="class-image"
+                                  style="
+                                    background-image: url('/images/workingspace/pos.png');
+                                  "
+                                ></div>
+                              </div>
+                              <div class="class-text">Web Programming</div>
+                              <div class="class-name">Johan Ramadhan</div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Karya Saya -->
+                  <div
+                    class="tab-pane fade"
+                    id="nav-karya"
+                    role="tabpanel"
+                    aria-labelledby="nav-karya-tab"
+                  >
+                    <div class="container-fluid">
+                      <div class="dashboard-heading">
+                        <h2 class="dashboard-title">Karya Saya</h2>
+                        <p class="dashboard-subtitle">
+                          Upload Karya terbaik yang sudah kamu pelajari
+                        </p>
+                      </div>
+                      <div class="dashboard-content">
+                        <div class="row">
+                          <div
+                            class="col-6 col-md-4 col-lg-4"
+                            data-aos="fade-up"
+                          >
+                            <a href="#" class="btn btn-block">Upload Karya</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/vendor/bootstrap/js/all.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/vendor/bootstrap/css/bootstrap.min.css"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/script/navbar-scroll.js"></script>
+  </body>
+</html>

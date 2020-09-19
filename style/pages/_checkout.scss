@@ -1,0 +1,29 @@
+.checkout {
+  background-color: #eaeaea;
+  margin-top: -10px;
+  height: 950px;
+  .checkout-title {
+    margin-bottom: 50px;
+    h1 {
+      margin-top: 50px;
+    }
+  }
+  .card {
+    border-radius: 10px;
+    .card-header {
+      li {
+        margin-right: 5px;
+      }
+    }
+    .card-body {
+      .btn {
+        background-color: #fdd729;
+        font-weight: 600;
+        color: black;
+        &:hover {
+          background-color: #ffd000;
+        }
+      }
+    }
+  }
+}

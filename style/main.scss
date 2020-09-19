@@ -1,0 +1,16 @@
+// Import Bootstrap 4 Library
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+@import "global";
+@import "navbar";
+@import "fonts";
+
+@import "pages/home";
+@import "pages/membership";
+@import "pages/register";
+@import "pages/checkout";
+@import "pages/dashboard";
+@import "pages/dashboard-intro";
+@import "pages/dashboard-lesson";
+
+@import "components/kelas";

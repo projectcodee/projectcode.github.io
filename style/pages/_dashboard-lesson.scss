@@ -1,0 +1,53 @@
+.page-dashboard-lesson {
+  #sidebar-wrapper {
+    margin-top: 60px;
+    min-height: 100vh;
+    margin-left: 0;
+    transition: margin 0.3s ease-out;
+    background-color: #f9f9f9;
+
+    .list-group {
+      width: 20rem;
+      padding: 10px;
+    }
+  }
+  #wrapper {
+    &.toggled {
+      #sidebar-wrapper {
+        margin-left: -20rem;
+      }
+    }
+  }
+  .list-group-item {
+    border: 0;
+    font-size: 18px;
+    color: #000;
+    background-color: #e6f3ed;
+    margin-top: 10px;
+    border-radius: 7px;
+
+    &.active {
+      color: #ffffff;
+      background-color: #176a4c;
+    }
+    .fa-check-circle {
+      color: #fed000;
+    }
+  }
+  .section-content {
+    margin-top: 100px;
+    .dashboard-title {
+      font-size: 24px;
+      line-height: 36px;
+      color: #0c0d36;
+    }
+    .dashboard-content {
+      .bd-example {
+        position: relative;
+        border: solid #f8f9fa;
+        min-width: 1080px;
+        padding: 1.5rem;
+      }
+    }
+  }
+}

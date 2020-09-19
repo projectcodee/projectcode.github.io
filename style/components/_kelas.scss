@@ -1,0 +1,275 @@
+.kelas-jumbotron {
+  height: 875px;
+  padding: 300px 0 0px 0;
+  margin-top: -310px;
+  background-image: url("../../images/slider/1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -50px;
+  position: relative;
+
+  h1 {
+    color: #eaeaea;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 80px;
+    margin-top: 90px;
+
+    span {
+      color: #fed000;
+      font-weight: 700;
+    }
+  }
+  .detail-jumbotron {
+    h4 {
+      font-size: 20px;
+      color: white;
+      font-weight: 300;
+      margin-top: 35px;
+    }
+    h3 {
+      font-size: 25px;
+      color: #fed000;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+  }
+
+  p {
+    color: #eaeaea;
+    margin-top: 55px;
+  }
+
+  .container {
+    z-index: 1;
+    position: relative;
+  }
+}
+
+.kelas-jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 70%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+
+.card-kelas {
+  margin-top: -80px;
+}
+
+.component-kelas {
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 130px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  height: 480px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+  }
+
+  .kelas-image {
+    text-align: center;
+    img {
+      width: 245px;
+    }
+  }
+
+  .kelas-text {
+    h5 {
+      color: #000000;
+      font-weight: 300;
+      font-size: 15px;
+      margin-top: -6px;
+    }
+
+    h4 {
+      color: #000000;
+      font-weight: 500;
+      margin-top: 20px;
+    }
+    h3 {
+      color: #000000;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    h2 {
+      color: #000000;
+      font-weight: 400;
+      font-size: 20px;
+      text-decoration: line-through;
+      color: red;
+    }
+    p {
+      color: rgb(0, 0, 0);
+      font-size: 12px;
+    }
+  }
+}
+
+.component-preview-kelas {
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+
+  .kelas-image {
+    text-align: center;
+    img {
+      width: 245px;
+    }
+  }
+
+  .kelas-text {
+    h5 {
+      color: #000000;
+      font-weight: 500;
+      font-size: 17px;
+      margin-top: 5px;
+    }
+    h2 {
+      color: #000000;
+      font-weight: 400;
+      font-size: 20px;
+      text-decoration: line-through;
+      color: red;
+    }
+    p {
+      color: rgb(0, 0, 0);
+      font-size: 12px;
+    }
+    .nav-item {
+      margin-bottom: 10px;
+      .nav-link {
+        background-color: #f3f3f3;
+        color: #000000;
+        display: block;
+        font-size: 15px;
+
+        &:hover {
+          background-color: #eaeaea;
+        }
+      }
+    }
+  }
+}
+
+.component-deskripsi-kelas {
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  h5 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+.pricing {
+  background-color: #eaeaea;
+  height: 900px;
+
+  .title-pricing {
+    margin-top: 100px;
+    h1 {
+      color: #03905d;
+      font-size: 45px;
+      font-weight: 500;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
+  .card-pricing {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 35px;
+    h3 {
+      font-size: 30px;
+    }
+    h1 {
+      font-size: 50px;
+      color: #176a4c;
+    }
+    p {
+      font-weight: 300;
+    }
+    .item {
+      width: 100%;
+      overflow: hidden;
+      .name {
+        float: left;
+      }
+      .icon {
+        float: right;
+        img {
+          max-width: 30px;
+        }
+      }
+    }
+    .btn-beli {
+      background-color: #176a4c;
+      color: #ffffff;
+      &:hover {
+        background-color: #1e805c;
+      }
+    }
+  }
+}
+
+.component-class {
+  margin-bottom: 20px;
+  &:hover {
+    text-decoration: none;
+  }
+  .class-thumbnail {
+    width: 100%;
+    height: 200px;
+
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+
+    &:hover,
+    &:focus {
+      .class-image {
+        transform: scale(1.1);
+      }
+    }
+    .class-image {
+      width: 100%;
+      height: 100%;
+
+      background-color: #ddd;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      transition: all 0.3s ease;
+    }
+  }
+  .class-text {
+    font-weight: normal;
+    font-size: 18px;
+    color: #0c0d36;
+    margin-top: 12px;
+  }
+  .class-name {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ff7158;
+  }
+}

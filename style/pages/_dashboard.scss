@@ -1,0 +1,62 @@
+.page-dashboard {
+  padding-top: 160px;
+  background-color: #f9f9f9;
+  #sidebar-wrapper {
+    min-height: 100vh;
+    transition: margin 0.25s ease-out;
+
+    .sidebar-heading {
+      padding: 0.875rem 1.25rem;
+      font-size: 1.2rem;
+
+      img {
+        margin-left: 20px;
+        margin-bottom: 25px;
+        min-width: 150px;
+        max-width: 150px;
+      }
+      .sidebar-heading-name {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 0px;
+      }
+      .sidebar-heading-job {
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 30px;
+      }
+
+      .btn {
+        background-color: #176a4c;
+        color: #ffffff;
+        &:hover {
+          background-color: #1d8660;
+        }
+      }
+    }
+  }
+  .page-content-wrapper {
+    background-color: #f9f9f9;
+    .dashboard-heading {
+      .dashboard-title {
+        margin-top: 20px;
+        font-size: 28px;
+        font-weight: 600;
+      }
+      .dashboard-subtitle {
+        font-size: 18px;
+        font-weight: 300;
+      }
+    }
+    .dashboard-content {
+      .btn {
+        margin-top: 25px;
+        background-color: #176a4c;
+        color: #ffffff;
+        &:hover {
+          background-color: #1d8660;
+        }
+      }
+    }
+  }
+}

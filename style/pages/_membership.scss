@@ -1,0 +1,129 @@
+.membership-jumbotron {
+  h2 {
+    color: #eaeaea;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 35px;
+    margin-top: 90px;
+    span {
+      color: #fed000;
+      font-weight: 700;
+    }
+  }
+  a {
+    margin-top: 20px;
+    background-color: #176a4c;
+    color: white;
+    border-radius: 7px;
+    &:hover {
+      background-color: #1e7e5b;
+      color: white;
+    }
+  }
+}
+
+.membership {
+  background-color: #eaeaea;
+  margin-top: -30px;
+  .modul {
+    h1 {
+      text-align: center;
+      font-size: 40px;
+      font-weight: 600;
+      margin-top: 80px;
+    }
+    p {
+      text-align: center;
+      font-size: 13px;
+      font-weight: 400;
+    }
+    .modul-1 {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 7px 6px 5px rgba(0, 0, 0, 0.3);
+      img {
+        margin-left: 15px;
+        margin-top: 15px;
+      }
+
+      h4 {
+        font-weight: 600;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .btn-modul {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        background-color: #176a4c;
+        color: white;
+        &:hover {
+          background-color: #248a64;
+        }
+      }
+    }
+  }
+}
+
+.investasi {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  text-align: center;
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 35px;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+  }
+  h3 {
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: red;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+.paket-membership {
+  background-color: #2aaa7c;
+  padding: 15px;
+  .paket-price {
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    p {
+      font-size: 15px;
+      font-weight: 400;
+      margin-left: 15px;
+    }
+    img {
+      width: 20px;
+      margin-left: 15px;
+      margin-right: 10px;
+    }
+    h2 {
+      font-size: 30px;
+      font-weight: 700;
+      margin-left: 15px;
+    }
+  }
+  .btn-membership {
+    background-color: #176a4c;
+    margin-bottom: 40px;
+    color: white;
+    &:hover {
+      background-color: #1c805b;
+    }
+  }
+}

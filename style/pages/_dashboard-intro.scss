@@ -1,0 +1,55 @@
+.page-dashboard-intro {
+  padding-top: 160px;
+  .intro-title {
+    font-size: 45px;
+  }
+  .intro-text {
+    margin-top: 15px;
+  }
+  .intro-table {
+    margin-top: 15px;
+  }
+}
+
+.page-dashboard-detail-class {
+  margin-top: 90px;
+  padding-top: 60px;
+  background-color: #f9f9f9;
+  min-height: 200vh;
+
+  .course-lesson-list {
+    h3 {
+      font-size: 25px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+    .lesson-list-item {
+      .media {
+        color: #176a4c;
+      }
+      .media-body {
+        .link-title {
+          color: #176a4c !important;
+          &:hover {
+            text-decoration: none;
+          }
+          .lesson-title {
+            margin-left: 5px;
+            color: #000;
+            font-weight: 500;
+            &:hover {
+              color: rgb(77, 77, 77);
+            }
+          }
+        }
+      }
+      .btn {
+        color: #ffffff;
+        background-color: #176a4c;
+        &:hover {
+          background-color: #1f835e;
+        }
+      }
+    }
+  }
+}

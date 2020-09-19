@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Projectcode</title>
+    <!-- Favicons -->
+    <link href="images/logo/logo_pc.svg" rel="icon" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" />
+    <link href="style/main.css" rel="stylesheet" />
+
+    <!-- Fontwesome -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/all.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark navbar-project fixed-top navbar-fixed-top"
+      data-aos="fade-down"
+      style="background-color: black"
+    >
+      <div class="container">
+        <a href="/index.html" class="navbar-brand">
+          <img src="images/logo/logo_pc.svg" alt="logo pc" class="d-inline" />
+          <span class="project">PROJET<span class="code">CODE</span> </span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Update
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Blog</a>
+                <a class="dropdown-item" href="#">Webinar</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="/kelas.html" class="nav-link active">Online Course</a>
+            </li>
+            <li class="nav-item">
+              <a href="/flowchart.html" class="nav-link">Alur Belajar</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav d-none d-lg-flex">
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+              >
+                <img
+                  src="images/workingspace/icon-user.png"
+                  alt=""
+                  class="rounded-circle-2 mr-2 profile-picture"
+                />Hi, Hendra Andika
+              </a>
+              <div class="dropdown-menu">
+                <a href="/dashboard.html" class="dropdown-item">Dashboard</a>
+                <a href="/index.html" class="dropdown-item">Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="page-content page-home">
+      <!-- Form Register-->
+      <section class="checkout">
+        <div class="container">
+          <div class="row checkout-title">
+            <div class="col-lg">
+              <h1 class="text-center">FORM PEMESANAN</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-5 modul">
+              <div class="col-lg-12">
+                <div class="card">
+                  <div class="card-header">RINGKASAN PEMESANAN</div>
+                  <div class="card-body">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <td>Nama Produk</td>
+                          <td>Harga</td>
+                          <td>Subtotal</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Kelas Membership</td>
+                          <td>Rp650.000</td>
+                          <td>Rp650.000</td>
+                        </tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <td></td>
+                          <td>Total</td>
+                          <td>Rp650.000</td>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
+                </div>
+                <div class="card mt-5">
+                  <div class="card-header">DATA PENGGUNA</div>
+                  <div class="card-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="">Nama Lengkap</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="masukkan nama lengkap anda"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="">Nomor Seluler / WhatsApp</label>
+                        <input
+                          type="number"
+                          class="form-control"
+                          placeholder="Nomor seluler / whatsapp"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="">Password</label>
+                        <input
+                          type="password"
+                          class="form-control"
+                          placeholder="Masukkan kata sandi minimal 6 karakter"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="">Konfirmasi Password</label>
+                        <input
+                          type="password"
+                          class="form-control"
+                          placeholder="Ulangi kata sandi"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 modul ml-auto">
+              <div class="col-lg-12">
+                <div class="card">
+                  <div class="card-header">METODE PEMBAYARAN</div>
+                  <div class="card-body">
+                    <h5 class="mb-4 ml-4">Transfer Manual</h5>
+                    <p class="border border-dark p-3 rounded">
+                      Pembayaran melalui transfer ke rekening kami di bank
+                      Mandiri Syariah. Kami akan mengurangi harga total Kamu
+                      sebesar angka random antara 1 sampai 999 rupiah untuk
+                      memudahkan kami melakukan pengecekan pada saat melakukan
+                      verifikasi pembayaran. <br />
+                      <br />
+                      Transfer dari bank lain akan dikenakan biaya administrasi
+                      antar bank.
+                    </p>
+                    <button
+                      class="btn btn-block"
+                      type="button"
+                      data-toggle="modal"
+                      data-target="#bank"
+                    >
+                      BAYAR VIA TRANSFER BANK
+                    </button>
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="bank"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="bankModalLabel">
+                              Transver Via Bank
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-12">
+                                <h5>Pembayaran</h5>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6">
+                                <p>Harga Kelas</p>
+                              </div>
+                              <div class="col-6 ml-auto">
+                                <h5>Rp650.000</h5>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6">
+                                <p>Kode Unik</p>
+                              </div>
+                              <div class="col-6 ml-auto">
+                                <h5>398</h5>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6">
+                                <h6>Harga Total</h6>
+                              </div>
+                              <div class="col-6 ml-auto">
+                                <h5>Rp650.398</h5>
+                              </div>
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-12">
+                                <h5>Transfer Pembayaran</h5>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <img src="images/logo/bsm.png" class="w-25" />
+                              </div>
+                            </div>
+                            <div class="row mt-2">
+                              <div class="col-6">
+                                <p>Bank</p>
+                              </div>
+                              <div class="col-6 ml-auto">
+                                <h5>Mandiri Syariah</h5>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6">
+                                <p>Kode Rekening</p>
+                              </div>
+                              <div class="col-6 ml-auto">
+                                <h5>7117494308</h5>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6">
+                                <p>Penerima</p>
+                              </div>
+                              <div class="col-6 ml-auto">
+                                <h5>Diki Zunaedi Abdillah</h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-12">
+                                <h5>Konfirmasi Pembayaran</h5>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <img
+                                  src="images/workingspace/wa.png"
+                                  width="25px"
+                                  class="float-left"
+                                />
+                                <p>WhatsApp</p>
+                              </div>
+                            </div>
+                            <div class="row mt-2">
+                              <div class="col-6">
+                                <p>Diki Zunaedi Abdillah</p>
+                              </div>
+                              <div class="col-6 ml-auto">
+                                <h5>081365427556</h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-dismiss="modal"
+                            >
+                              Belum Transfer
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                              Sudah Transfer
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Akhir Form Register -->
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 footer-info">
+                <img
+                  src="images/workingspace/pc.png"
+                  width="100px"
+                  class="float-left mr-2"
+                />
+                <h3 class="pt-2">
+                  PROJECT <br />
+                  <span>CODE</span>
+                </h3>
+                <p></p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Program</h4>
+                <ul>
+                  <li>
+                    <i class="fas fa-arrow-circle-right"></i>
+                    <a href="#">Update</a>
+                  </li>
+                  <li>
+                    <i class="fas fa-arrow-circle-right"></i>
+                    <a href="#">Online Course</a>
+                  </li>
+                  <li>
+                    <i class="fas fa-arrow-circle-right"></i>
+                    <a href="#">Alur Belajar</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-4 col-md-6 footer-contact">
+                <h4>Contact Us</h4>
+                <p>
+                  Jl. Air Dingin Gg. Perwira No.6 <br />
+                  Pekanbaru, Riau 28282 <br />
+                  Indonesia <br />
+                  <strong>Phone:</strong> +62 8228 7597 809 <br />
+                  <strong>Email:</strong> projectcode12@gmail.com<br />
+                </p>
+
+                <div class="social-links">
+                  <a
+                    href="https://www.instagram.com/projectcodee/"
+                    class="instagram"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="https://wa.me/6282287597809" class="whatsapp"
+                    ><i class="fab fa-whatsapp"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="copyright">
+            &copy; Copyright <strong>ProjectCode</strong>. All Rights Reserved
+          </div>
+        </div>
+      </footer>
+      <!-- Akhir Footer -->
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/vendor/bootstrap/js/all.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/vendor/bootstrap/css/bootstrap.min.css"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/script/navbar-scroll.js"></script>
+  </body>
+</html>
